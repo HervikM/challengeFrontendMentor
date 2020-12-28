@@ -1,0 +1,58 @@
+$primary: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+$paleBlue: hsl(243, 100%, 93%);
+$grayishBlue: hsl(229, 7%, 55%);
+$darkBlue: hsl(228, 56%, 26%);
+$veryDark: hsl(229, 57%, 11%);
+$tamañoFuenteBody: 14px;
+$fuente: "Raleway", sans-serif;
+
+html {
+  box-sizing: border-box;
+  font-size: rem;
+}
+*,
+*:before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: $veryDark;
+  font-family: $fuente;
+  color: $paleBlue;
+}
+
+.flex-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 1px solid red;
+}
+
+.one-flexContent {
+  background-color: $darkBlue;
+  width: 300px;
+  height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 50px 0px 0px;
+  ul{
+    display: flex;
+    list-style: none;
+  }
+  li{
+    border: 1px solid $veryDark;
+    margin: 5px;
+  }
+
+}
+
+.two-flexContent {
+  background-color: $darkBlue;
+ 
+}
