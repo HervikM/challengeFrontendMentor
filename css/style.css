@@ -76,4 +76,18 @@ body {
   border-radius: 10px 10px 10px 10px;
 }
 
+footer {
+  position: relative;
+  top: 150px;
+}
+footer a {
+  text-decoration: none;
+  color: #848794;
+  margin-right: 5px;
+  transition: 300ms all;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=style.css.map */

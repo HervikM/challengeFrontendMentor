@@ -20,8 +20,8 @@ body {
   background-color: $veryDark;
   background-image: url("../img/bg-desktop.png");
   background-repeat: no-repeat, no-repeat;
-  background-position: left bottom ;
-  background-size: 100%  52%;
+  background-position: left bottom;
+  background-size: 100% 52%;
   font-family: $fuente;
   color: $paleBlue;
 
@@ -91,4 +91,19 @@ body {
   height: 150px;
   padding: 20px;
   border-radius: 10px 10px 10px 10px;
+}
+
+footer {
+  position: relative;
+  top: 150px;
+  // border: 1px solid green;
+  a {
+    text-decoration: none;
+    color: $grayishBlue;
+    margin-right: 5px;
+    transition: 300ms all;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
 }
