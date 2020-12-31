@@ -9,8 +9,11 @@ html {
 }
 
 body {
-  background: #0c122c;
-  background-image: url("img/bg-desktop.png");
+  background-color: #0c122c;
+  background-image: url("../img/bg-desktop.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left bottom;
+  background-size: 100% 52%;
   font-family: "Raleway", sans-serif;
   color: #dddbff;
   display: flex;

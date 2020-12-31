@@ -17,8 +17,11 @@ html {
 }
 
 body {
-  background: $veryDark;
-  background-image: url("img/bg-desktop.png");
+  background-color: $veryDark;
+  background-image: url("../img/bg-desktop.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left bottom ;
+  background-size: 100%  52%;
   font-family: $fuente;
   color: $paleBlue;
 
