@@ -8,7 +8,7 @@ $fuente: "Raleway", sans-serif;
 
 html {
   box-sizing: border-box;
-  font-size: rem;
+  // font-size: px;
 }
 *,
 *:before,
@@ -18,41 +18,74 @@ html {
 
 body {
   background: $veryDark;
+  background-image: url("img/bg-desktop.png");
   font-family: $fuente;
   color: $paleBlue;
+
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .flex-content {
+  width: 925px;
+  min-width: 900px;
+  height: 220px;
+  min-height: 210px;
+  // border: 1px solid red;
+  padding: 10px;
+
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  border: 1px solid red;
+  align-items: flex-end;
+  justify-content: space-around;
 }
 
 .one-flexContent {
   background-color: $darkBlue;
-  width: 300px;
-  height: 200px;
 
+  width: 350px;
+  height: 202px;
+  margin: 0;
+  margin-right: 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 0px 50px 0px 0px;
-  ul{
+
+  border-radius: 10px 100px 10px 10px;
+  h1 {
+    // border: 1px solid red;
+    margin: 38px 0px 0px 35px;
+    padding: 0;
+  }
+  ul {
+    margin: 25px 0px 0px 35px;
+    // margin-top: 0;
     display: flex;
     list-style: none;
+    padding: 0;
+    // border: 1px solid red;
   }
-  li{
+  li {
+    background-color: $veryDark;
+    width: 48px;
+    height: 48px;
     border: 1px solid $veryDark;
-    margin: 5px;
-  }
+    margin-right: 15px;
+    border-radius: 10px;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .two-flexContent {
   background-color: $darkBlue;
- 
+  width: 539px;
+  height: 150px;
+  padding: 20px;
+  border-radius: 10px 10px 10px 10px;
 }
